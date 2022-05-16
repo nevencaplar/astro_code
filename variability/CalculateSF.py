@@ -5,6 +5,7 @@ from scipy.stats import binned_statistic
 class CalculateSF:
     
     def __init__(self):
+        pass
         
 
     def calculate_sf2(self,t, y, yerr, bins):
