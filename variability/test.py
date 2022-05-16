@@ -1,3 +1,4 @@
+#! /opt/miniconda3/envs/env_var/bin/python
 import unittest
 from CalculateSF import calculate_sf2
 
