@@ -2,8 +2,6 @@ import unittest
 from scipy.stats import binned_statistic
 
 class CalculateSF:
-    "Module for calculating structure function
-    "
     def __init__(self):
         pass
         
