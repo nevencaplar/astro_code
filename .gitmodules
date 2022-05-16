@@ -1,0 +1,8 @@
+[submodule "other_repos/rubin_sim"] 
+  path = other_repos/rubin_sim 
+  url = https://github.com/lsst/rubin_sim
+
+[submodule "other_repos/syseng_throughputs"] 
+  path = other_repos/syseng_throughputs 
+  url = https://github.com/lsst-pst/syseng_throughputs
+
