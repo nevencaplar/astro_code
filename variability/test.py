@@ -1,6 +1,6 @@
 #! /opt/miniconda3/envs/env_var/bin/python
 import unittest
-from CalculateSF import calculate_sf2
+from CalculateSF import CalculateSF
 
 class TestReturnValues(unittest.TestCase):
     def test_value(self):
@@ -13,7 +13,7 @@ class TestReturnValues(unittest.TestCase):
         test_bins = [1, 3, 5, 7]
         
         
-        self.assertEqual(np.sum(calculate_sf2(test_t, test_y,
+        self.assertEqual(np.sum(CalculateSF.calculate_sf2(test_t, test_y,
                                               test_yerr, test_bins)),
                          -0.0126072883605957)
 

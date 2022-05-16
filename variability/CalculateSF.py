@@ -1,13 +1,12 @@
-#! /usr/bin/env python3
 import unittest
 from scipy.stats import binned_statistic
 
 class CalculateSF:
-    
+    "Module for calculating structure function
+    "
     def __init__(self):
         pass
         
-
     def calculate_sf2(self,t, y, yerr, bins):
         """Calculate structure function squared
 
