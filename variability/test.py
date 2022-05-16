@@ -1,6 +1,7 @@
 #! /opt/miniconda3/envs/env_var/bin/python
 import unittest
 from CalculateSF import CalculateSF
+import numpy as np
 
 class TestReturnValues(unittest.TestCase):
     def test_value(self):
