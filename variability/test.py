@@ -13,7 +13,8 @@ class TestReturnValues(unittest.TestCase):
         test_yerr = np.array([.1, .023, .045, .1, .067, .032, .8, .02])
         test_bins = [1, 3, 5, 7]
         
-        
+        print(CalculateSF().calculate_sf2(test_t, test_y,
+                                              test_yerr, test_bins))
         self.assertEqual(np.sum(CalculateSF().calculate_sf2(test_t, test_y,
                                               test_yerr, test_bins)[0]),
                          -0.0126072883605957)
