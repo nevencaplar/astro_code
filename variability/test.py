@@ -14,8 +14,8 @@ class TestReturnValues(unittest.TestCase):
         test_bins = [1, 3, 5, 7]
         
         
-        self.assertEqual(np.sum(CalculateSF.calculate_sf2(test_t, test_y,
-                                              test_yerr, test_bins)),
+        self.assertEqual(np.sum(CalculateSF().calculate_sf2(test_t, test_y,
+                                              test_yerr, test_bins)[0]),
                          -0.0126072883605957)
 
 if __name__  == '__main__':
